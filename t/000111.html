@@ -4,6 +4,30 @@
     <h1 style="font-family: arial, sans-serif">TICKET</h1>
   </head>
   <body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB4nJeWw-Gf98AJPfBxMRbozyGsEnWQAcg",
+    authDomain: "tiqa-6361e.firebaseapp.com",
+    projectId: "tiqa-6361e",
+    storageBucket: "tiqa-6361e.appspot.com",
+    messagingSenderId: "73168947077",
+    appId: "1:73168947077:web:deba445e5fb66fc47c66ec",
+    measurementId: "G-VY66XP8VVE"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
     <h2 style="color:green; font-family: arial, sans-serif">VALID</h2>
     <p style="color:blue; font-family: monaco, monospace">Ticket for %event% with the SCN %scn%.</p>
     <button style="height:100px;width:335px; color:red; font-family: arial, sans-serif" onclick="devalue()"><b><h2>DEVALUE</h2></b></button>
@@ -16,3 +40,4 @@
     </script>
   </body>
 </html>
+
