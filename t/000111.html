@@ -6,6 +6,13 @@
   <body>
     <h2 style="color:green; font-family: arial, sans-serif">VALID</h2>
     <p style="color:blue; font-family: monaco, monospace">Ticket for %event% with the SCN %scn%.</p>
-    <button style="height:100px;width:300px; color:red; font-family: arial, sans-serif"><b><h2>DEVALUE</h2></b></button>
+    <button style="height:100px;width:335px; color:red; font-family: arial, sans-serif" onclick="devalue()"><b><h2>DEVALUE</h2></b></button>
+    <script>
+    function devalue() {
+    	alert("You are NOT Logged in!\nLog In in the next window, you want to devalue the ticket!")
+        prompt("LoggerID")
+        prompt("Passwort")
+    }
+    </script>
   </body>
 </html>
