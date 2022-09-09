@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 style="font-family: arial, sans-serif">TICKET</h1>
+  </head>
+  <body>
+    <h2 style="color:green; font-family: arial, sans-serif">VALID</h2>
+    <p style="color:blue; font-family: monaco, monospace">Ticket for %event% with the SCN %scn%.</p>
+    <button style="height:100px;width:300px; color:red; font-family: arial, sans-serif"><b><h2>DEVALUE</h2></b></button>
+  </body>
+</html>
